@@ -1,21 +1,30 @@
-.ui-datepicker-year {
-    display: none;
+#calendar {
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
 }
-
-.ui-datepicker-header {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+#calendar thead tr:last-child {
+    font-size: small;
+    color: rgb(85, 85, 85);
 }
-
-.ui-datepicker-next {
-    margin-left: auto;
+#calendar thead tr:nth-child(1) td:nth-child(2) {
+    color: rgb(50, 50, 50);
 }
-
-.ui-state-default {
-    text-decoration: none;
+#calendar thead tr:nth-child(1) td:nth-child(1):hover, #calendar thead tr:nth-child(1) td:nth-child(3):hover {
+    cursor: pointer;
 }
-
-thead {
-    display: none;
+#calendar tbody td {
+    font-size: 14px;
+    color: #000000;
+}
+#calendar tbody td:nth-child(n+6), #calendar .holiday {
+    font-size: 14px;
+    color: #000000;
+}
+#calendar tbody td.today {
+    font-size: 14px;
+    background: #18a765;
+    color: #ffffff;
 }

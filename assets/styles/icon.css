@@ -24,6 +24,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-up:before {
+  content: "\e90b";
+  color: #18a765;
+}
+
+.icon-arrow-do:before {
+  content: "\e908";
+  color: #18a765;
+}
+
 .icon-arrow-down:before {
   content: "\e908";
   color: #18a765;

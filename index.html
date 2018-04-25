@@ -158,10 +158,30 @@
                     <div class="date-work col-05 bg-calc m-4">
                         <h2 class="chapter-calc">Дата и время уборки</h2>
                         <div class="date-work-blocks flex row">
-                            <div class="date-work-block">
+                            <div class="date-work-block" style="margin-left: 20px">
+                                <div class="datepicker">
+                                    <div align=center>
+                                        <div style="width:150px; margin-top: 20px; border:1px solid #cfcbca; background-color: #f7f9f8; border-radius: 6px; padding:6px;">
+                                            <table id="calendar"  border="0" cellspacing="0" cellpadding="1">
+                                                <thead>
+                                                <tr><td><b>‹</b><td colspan="5"><td><b>›</b>
+                                                <tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="timepicker">
+                                    <span class="icon-arrow-up"></span>
+                                    <input type="time" id="timepicker">
+                                    <span class="icon-arrow-do"></span>
+                                </div>
                             </div>
-                            <div class="date-work-block">
-
+                            <div class="date-work-block setcol">
+                                <textarea id="messange" placeholder="Введите Ваш адрес"></textarea>
+                                <input type="tel" placeholder="Введите телефон">
+                                <input type="email" placeholder="Введите E-Mail">
                             </div>
                         </div>
                     </div>
@@ -190,12 +210,9 @@
     </section>
 
     <!--SCRIPT-->
+    <script src="assets/scripts/datepicker.js"></script>
     <script src="assets/scripts/lib/jquery-3.3.1.min.js"></script>
     <script src="assets/scripts/script.js"></script>
     <script src="assets/scripts/calc.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-        });
-    </script>
 </body>
 </html>
