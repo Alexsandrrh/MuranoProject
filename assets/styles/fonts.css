@@ -1,34 +1,4 @@
 @font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-Bold.ttf");
-}
-
-@font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-ExtraLight.ttf");
-}
-
-@font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-Light.ttf");
-}
-
-@font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-Medium.ttf");
-}
-
-@font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-Regular.ttf");
-}
-
-@font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-SemiBold.ttf");
-}
-
-@font-face {
-    font-family: ;
-    src: url("../fonts/IBMPlexSans-Thin.ttf");
+    font-family: SmallstepPro-Bold;
+    src: url("../fonts/Evolutionfonts - SmallstepPro-Bold.otf");
 }

@@ -1,0 +1,21 @@
+.ui-datepicker-year {
+    display: none;
+}
+
+.ui-datepicker-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.ui-datepicker-next {
+    margin-left: auto;
+}
+
+.ui-state-default {
+    text-decoration: none;
+}
+
+thead {
+    display: none;
+}

@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?2djt77');
+  src:  url('../fonts/icomoon.eot?2djt77#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?2djt77') format('truetype'),
+    url('../fonts/icomoon.woff?2djt77') format('woff'),
+    url('../fonts/icomoon.svg?2djt77#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+  content: "\e908";
+  color: #18a765;
+}
+
+.icon-arrow-left:before {
+  content: "\e909";
+  color: #18a765;
+}
+
+.icon-arrow-right:before {
+  content: "\e90a";
+  color: #18a765;
+}
+
+.icon-success:before {
+  content: "\e900";
+}
+.icon-armchair:before {
+  content: "\e901";
+}
+.icon-bar-stool:before {
+  content: "\e902";
+}
+.icon-carpet:before {
+  content: "\e903";
+}
+.icon-couch:before {
+  content: "\e904";
+}
+.icon-double-bed:before {
+  content: "\e905";
+}
+.icon-kitchen:before {
+  content: "\e906";
+}
+.icon-ottoman:before {
+  content: "\e907";
+}
+
+/*================================*/
+
+#check-1 {
+  display: none;
+}
+
+.icon-couch {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-couch.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-1.-active {
+  color: #71726d;
+}
+
+#check-1:checked+.icon-success {
+  color: #18a765;
+}
+
+/*----------------------------*/
+
+#check-2 {
+  display: none;
+}
+
+.icon-armchair {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-armchair.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-2.-active {
+  color: #71726d;
+}
+
+#check-2:checked+.icon-success {
+  color: #18a765;
+}
+
+/*-----------------------------*/
+
+#check-3 {
+  display: none;
+}
+
+.icon-double-bed {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-double-bed.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-3.-active {
+  color: #71726d;
+}
+
+#check-3:checked+.icon-success {
+  color: #18a765;
+}
+
+/*----------------------------*/
+
+#check-4 {
+  display: none;
+}
+
+.icon-bar-stool {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-bar-stool.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-4.-active {
+  color: #71726d;
+}
+
+#check-4:checked+.icon-success {
+  color: #18a765;
+}
+
+/*----------------------------*/
+
+#check-5 {
+  display: none;
+}
+
+.icon-carpet {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-carpet.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-5.-active {
+  color: #71726d;
+}
+
+#check-5:checked+.icon-success {
+  color: #18a765;
+}
+
+/*----------------------------*/
+
+#check-6 {
+  display: none;
+}
+
+.icon-ottoman {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-ottoman.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-6.-active {
+  color: #71726d;
+}
+
+#check-6:checked+.icon-success {
+  color: #18a765;
+}
+
+/*----------------------------*/
+
+#check-7 {
+  display: none;
+}
+
+.icon-kitchen {
+  font-size: 35px;
+  color: #cfcbca;
+  padding-bottom: 5px;
+  margin-bottom: 2px;
+}
+
+.icon-kitchen.-active {
+  color: #18a765;
+  border-bottom: 2px solid #71726d;
+  margin: 0;
+}
+
+#name-7.-active {
+  color: #71726d;
+}
+
+#check-7:checked+.icon-success {
+  color: #18a765;
+}
+
+.icon-success {
+  position: relative;
+  display: inline-block;
+  color: #cfcbca;
+  font-size: 35px;
+  cursor: pointer;
+}
