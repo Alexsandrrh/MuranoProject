@@ -81,20 +81,20 @@ $(document).ready(function () {
         }
         let total = (sum1 + sum2 + sum3 + sum4 + sum5 + sum6 +sum7);
         let percent;
-        if (total < 500) {
-            percent = 95;
+        if (total >= 12000) {
+            percent = 85;
             total /= 100;
             total *= percent;
             $('.result-cash').text(total.toFixed());
             $('.result-discont').text(100 - percent);
-        }else if (total < 1500) {
+        }else if (total >= 6000) {
             percent = 90;
             total /= 100;
             total *= percent;
             $('.result-cash').text(total.toFixed());
             $('.result-discont').text(100 - percent);
-        }else if (total < 2500) {
-            percent = 85;
+        }else if (total >= 1000) {
+            percent = 95;
             total /= 100;
             total *= percent;
             $('.result-cash').text(total.toFixed());

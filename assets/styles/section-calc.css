@@ -151,9 +151,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 99%;
     height: 30px;
-    margin: 22px 0 26px;
+    margin: 5px 0;
     border: 1px solid #cfcbca;
     border-radius: 3px;
     background-color: #f7f9f8;
@@ -164,6 +164,7 @@ section {
     font-weight: bold;
     cursor: pointer;
     margin: 0 9px;
+    display: none;
 }
 
 #timepicker {
@@ -186,32 +187,33 @@ section {
     box-sizing: border-box;
     background-color: #f7f9f8;
     border: 1px solid #cfcbca;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 4px 5px;
     width: 190px;
     height: 115px;
+    resize: none;
 }
 
 #tel {
-    margin-top: 9px;
+    margin-top: 6px;
     box-sizing: border-box;
     background-color: #f7f9f8;
     border: 1px solid #cfcbca;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 4px 5px;
     width: 190px;
-    height: 30px;
+    height: 32px;
 }
 
 #email {
-    margin-top: 9px;
+    margin-top: 6px;
     box-sizing: border-box;
     background-color: #f7f9f8;
     border: 1px solid #cfcbca;
-    border-radius: 6px;
+    border-radius: 3px;
     padding: 4px 5px;
     width: 190px;
-    height: 30px;
+    height: 32px;
 }
 
 /*===============================*/

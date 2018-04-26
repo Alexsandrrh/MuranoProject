@@ -19,12 +19,27 @@
     font-size: 14px;
     color: #000000;
 }
+
+#calendar tbody td:hover {
+    color: white;
+    background-color: #18a765;
+    border-radius: 3px;
+}
+
 #calendar tbody td:nth-child(n+6), #calendar .holiday {
     font-size: 14px;
     color: #000000;
 }
+
+#calendar tbody td:nth-child(n+6):hover {
+    color: #ffffff;
+}
+
 #calendar tbody td.today {
     font-size: 14px;
-    background: #18a765;
-    color: #ffffff;
+    color: #18a765;
+}
+
+#calendar tbody td.today:hover {
+    color: white;
 }

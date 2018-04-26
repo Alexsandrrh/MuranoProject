@@ -56,8 +56,11 @@ $(document).ready(function () {
     });
 
 //    INPUT NUMBER
+
     let minus = $('.icon-arrow-left'),
-        plus = $('.icon-arrow-right');
+        plus = $('.icon-arrow-right'),
+        up = $('.icon-arrow-up'),
+        down = $('.icon-arrow-do');
     minus.click(function () {
         var $input = $(this).parent().find('input');
         var count = parseInt($input.val()) - 1;
